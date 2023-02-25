@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc --watch",
+    "buildOnce": "tsc",
     "test": "jest",
     "codeCoverage": "jest --coverage",
     "start": "nodemon dist/index.js --watch",
